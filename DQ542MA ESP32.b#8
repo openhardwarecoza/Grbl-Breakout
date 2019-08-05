@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -294,20 +294,20 @@
 <wire x1="50.2" y1="94.1" x2="59.2" y2="94.1" width="0.254" layer="21"/>
 <circle x="54.7" y="87.4" radius="4.2107" width="0.254" layer="21"/>
 <circle x="44.1" y="87.5" radius="4.2107" width="0.254" layer="21"/>
-<text x="7" y="92" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">Z-MOTOR</text>
-<text x="7" y="63" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">Y-MOTOR</text>
-<text x="7" y="33.5" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">X-MOTOR</text>
-<text x="7" y="6" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">RELAY</text>
-<text x="7" y="18.5" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">X-END</text>
-<text x="7" y="48" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">Y-END</text>
-<text x="7" y="77.5" size="1.778" layer="21" font="vector" ratio="17" rot="R90" align="center">Z-END</text>
-<text x="8.5" y="77.5" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">VM/GND/SIG</text>
-<text x="8.5" y="48" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">VM/GND/SIG</text>
-<text x="8.5" y="18.5" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">VM/GND/SIG</text>
-<text x="8.6" y="5.9" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">SW/C/SW</text>
-<text x="8.5" y="92.5" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">A A B B </text>
-<text x="8.5" y="63.5" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">A A B B </text>
-<text x="8.5" y="33.5" size="1.016" layer="21" font="vector" ratio="17" rot="R90" align="center">A A B B </text>
+<text x="8.3" y="92" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">Z-MOTOR</text>
+<text x="8.3" y="63.1" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">Y-MOTOR</text>
+<text x="8.2" y="33.5" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">X-MOTOR</text>
+<text x="8.3" y="6" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">RELAY</text>
+<text x="8.2" y="18.7" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">X-END</text>
+<text x="8.3" y="48.1" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">Y-END</text>
+<text x="8.3" y="77.5" size="1.778" layer="21" font="vector" ratio="17" rot="SR270" align="center">Z-END</text>
+<text x="6.7" y="77.5" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">VM/GND/SIG</text>
+<text x="6.6" y="48" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">VM/GND/SIG</text>
+<text x="6.6" y="18.6" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">VM/GND/SIG</text>
+<text x="6.7" y="6.1" size="1.016" layer="21" font="vector" ratio="17" rot="R270" align="center">SW/C/SW</text>
+<text x="6.7" y="92.2" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">A A B B </text>
+<text x="6.6" y="62.9" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">A A B B </text>
+<text x="6.6" y="33.5" size="1.016" layer="21" font="vector" ratio="17" rot="SR270" align="center">A A B B </text>
 <wire x1="5.8" y1="54.5" x2="9.2" y2="54.5" width="0.1524" layer="21"/>
 <wire x1="5.8" y1="71.1" x2="9.2" y2="71.1" width="0.1524" layer="21"/>
 <wire x1="5.8" y1="83.9" x2="9.2" y2="83.9" width="0.1524" layer="21"/>
@@ -537,9 +537,9 @@
 <wire x1="78" y1="69" x2="87" y2="69" width="0.1524" layer="20"/>
 <wire x1="77.5" y1="64.5" x2="70" y2="64.5" width="0.1524" layer="20"/>
 <wire x1="74" y1="79" x2="70" y2="79" width="0.1524" layer="20"/>
-<text x="24" y="61" size="3.81" layer="21" ratio="19" align="center">GRBL-ESP32</text>
-<text x="16.3" y="64.6" size="2.54" layer="21" ratio="19" align="center">PvdWalt</text>
-<text x="33.8" y="64.6" size="2.54" layer="21" ratio="19" align="center">2019</text>
+<text x="24.5" y="60.5" size="3.81" layer="21" ratio="19" rot="SR180" align="center">GRBL-ESP32</text>
+<text x="16.7" y="64.4" size="2.54" layer="21" ratio="19" rot="SR180" align="center">PvdWalt</text>
+<text x="16.2" y="67.9" size="2.54" layer="21" ratio="19" rot="SR180" align="center">2019</text>
 <wire x1="22.5" y1="82" x2="20.5" y2="80" width="0.1524" layer="20" curve="-90"/>
 <wire x1="22.5" y1="82" x2="24.5" y2="84" width="0.1524" layer="20" curve="-90"/>
 <wire x1="20.5" y1="72.5" x2="22.5" y2="70.5" width="0.1524" layer="20" curve="-90"/>
@@ -3229,6 +3229,13 @@ W = angled&lt;p&gt;
 <via x="63.87" y="96.55" extent="1-16" drill="0.35"/>
 <via x="77.5" y="62" extent="1-16" drill="0.35"/>
 <via x="91" y="61" extent="1-16" drill="0.35"/>
+<via x="53.5" y="69" extent="1-16" drill="0.35"/>
+<via x="61" y="71" extent="1-16" drill="0.35"/>
+<via x="40.5" y="28.5" extent="1-16" drill="0.35"/>
+<via x="40.5" y="27" extent="1-16" drill="0.35"/>
+<via x="40.5" y="25.5" extent="1-16" drill="0.35"/>
+<via x="40.5" y="30" extent="1-16" drill="0.35"/>
+<via x="40.5" y="24" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VBB_IN30">
 </signal>
