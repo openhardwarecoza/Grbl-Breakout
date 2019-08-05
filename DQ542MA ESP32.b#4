@@ -3236,9 +3236,6 @@ W = angled&lt;p&gt;
 <via x="40.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="40.5" y="30" extent="1-16" drill="0.35"/>
 <via x="40.5" y="24" extent="1-16" drill="0.35"/>
-<via x="14.7" y="98.3" extent="1-16" drill="0.35"/>
-<via x="10.2" y="72.4" extent="1-16" drill="0.35"/>
-<via x="20.7" y="70.7" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VBB_IN30">
 </signal>

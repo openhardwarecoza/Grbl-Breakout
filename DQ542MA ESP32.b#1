@@ -258,8 +258,8 @@
 <wire x1="100" y1="98" x2="100" y2="74.5" width="0.1524" layer="20"/>
 <wire x1="100" y1="66.5" x2="100" y2="60.5" width="0.1524" layer="20"/>
 <wire x1="100" y1="52.5" x2="100" y2="24" width="0.1524" layer="20"/>
-<wire x1="100" y1="16" x2="100" y2="4" width="0.1524" layer="20"/>
-<wire x1="96" y1="0" x2="68.9" y2="0" width="0.1524" layer="20"/>
+<wire x1="100" y1="16" x2="100" y2="2" width="0.1524" layer="20"/>
+<wire x1="98" y1="0" x2="68.9" y2="0" width="0.1524" layer="20"/>
 <wire x1="68.9" y1="0" x2="60.2" y2="0" width="0.1524" layer="20" curve="53.737834"/>
 <wire x1="60.2" y1="0" x2="2" y2="0" width="0.1524" layer="20"/>
 <wire x1="2" y1="100" x2="23.5" y2="100" width="0.1524" layer="20"/>
@@ -457,7 +457,6 @@
 <hole x="96" y="4" drill="5"/>
 <text x="63" y="83" size="5.08" layer="21" ratio="19" align="center">+</text>
 <text x="36" y="83" size="5.08" layer="21" ratio="19" align="center">-</text>
-<wire x1="96" y1="0" x2="100" y2="4" width="0.1524" layer="20" curve="90"/>
 <circle x="36" y="82.6" radius="2.531796875" width="0.3048" layer="21"/>
 <circle x="62.9" y="82.6" radius="2.531796875" width="0.3048" layer="21"/>
 <polygon width="0.3048" layer="21">
@@ -555,6 +554,7 @@
 <wire x1="89" y1="62.5" x2="87" y2="60.5" width="0.1524" layer="20" curve="-90"/>
 <wire x1="81.5" y1="60.5" x2="87" y2="60.5" width="0.1524" layer="20"/>
 <wire x1="89" y1="62.5" x2="89" y2="67" width="0.1524" layer="20"/>
+<wire x1="98" y1="0" x2="100" y2="2" width="0.1524" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="rcl">
