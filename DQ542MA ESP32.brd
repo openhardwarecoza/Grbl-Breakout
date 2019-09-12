@@ -184,7 +184,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="252" name="STEPPERDRIVERS" color="11" fill="9" visible="no" active="yes"/>
-<layer number="253" name="PSU" color="13" fill="1" visible="no" active="yes"/>
+<layer number="253" name="PSU" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="13" fill="6" visible="no" active="yes"/>
 <layer number="255" name="OPBSNOTES" color="14" fill="1" visible="no" active="yes"/>
 </layers>
@@ -6328,6 +6328,10 @@
 <wire x1="7.8" y1="6.4" x2="15.1" y2="6.4" width="0.4064" layer="22"/>
 <wire x1="15.1" y1="6.4" x2="15.6" y2="7.4" width="0.4064" layer="22" curve="106.873562"/>
 <text x="86.5" y="2.5" size="0.8128" layer="21" ratio="15">+</text>
+<wire x1="34.6" y1="70.3" x2="-13.2" y2="75" width="0.1524" layer="253"/>
+<text x="-25.8" y="75.7" size="1.778" layer="253">1206 footprint</text>
+<wire x1="18.9" y1="44.2" x2="-40.8" y2="61.4" width="0.1524" layer="253"/>
+<text x="-43.5" y="14.9" size="1.778" layer="253" rot="R90">jumper for programming mode, pullup resistor on gpio2 prevents install</text>
 </plain>
 <libraries>
 <library name="rcl">
